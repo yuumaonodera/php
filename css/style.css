@@ -1,25 +1,48 @@
-p {
-  color: red;
+.flex_item {
+  display: flex;
+  justify-content: space-between;
 }
 
-p {
-  font-family: 'Gorditas', cursive;
-  font-size: 24px;
+.pracite_card {
+  width: 30%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2)
 }
 
-body {
-  background-image: url(../firstview.jpg) ;
-  background-size: 300px 100px;
-  background-repeat: no-repeat;
+.card_img img {
+  width: 100%;
 }
 
-* {
-  padding: 0px;
-  margin: 0px;
+.card_content {
+  padding: 15px 25px;
 }
 
-.bg {
-  background: url(../img/firstview.ipg) no-repeat bottom;
-  background-size: cover;
-  height: 700px;
+.card_ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.card_cat {
+  padding: 5px 10px;
+  background: #008888;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px
+}
+
+.tag {
+  font-size: 14px;
+  text-align: right;
+}
+
+.card_tag {
+  display: inline-block;
+  color: #008888;
+}
+
+.card_date {
+  display: inline-block;
+  margin-left: 20px;
+  color: #8888;
 }
