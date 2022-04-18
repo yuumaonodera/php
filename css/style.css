@@ -2,7 +2,8 @@ p {
   font-size: 25px;
   font-family: "Arial Black";
   color: #000080;
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
 }
 
 ul.gnav-navi-1 {
@@ -21,7 +22,9 @@ ul.gnav-navi-1 li a {
   top: 0;
   color: #000080;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
 }
 
 ul.gnav-navi-1 a::first-line {
