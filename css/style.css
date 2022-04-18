@@ -1,15 +1,49 @@
-  .relative {
-    position:relative;
-  }
-  .relative_img {
-    margin: 0 0 0 auto;
-    display: block;
-    width:50%;
-  }
-  .abusolute {
-    position:absolute;
-    top:50%;
-    left:20%;
-    font-size:50px;
-  }
-  
+p {
+  font-size: 25px;
+  font-family: "Arial Black";
+  color: #000080;
+}
+
+ul.gnav-navi-1 {
+  background: #fff;
+  padding: 0px;
+  text-align: right;
+  top: 0;
+}
+
+ul.gnav-navi-1 li {
+  display: inline-block;
+}
+
+ul.gnav-navi-1 li a {
+  display: block;
+  top: 0;
+  color: #000080;
+  text-decoration: none;
+}
+
+ul.gnav-navi-1 a::first-line {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+img {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  left: 700px;
+  padding: 100px;
+}
+
+.ws {
+  font-size: 40px;
+  font-family: impact;
+  top: 400px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background: #000080;
+  top: 500px;
+}
