@@ -1,13 +1,14 @@
 .gnav {
   display: flex;
   justify-content: space-between;
+  margin: 25px;
+  margin-left: 60px;
 }
 
 p {
-  font-size: 25px;
+  font-size: 35px;
   font-family: "Arial Black";
   color: #000080;
-  display: flex;
 }
 
 ul.gnav-navi-1 {
@@ -26,7 +27,10 @@ ul.gnav-navi-1 li a {
   color: #000080;
   text-decoration: none;
   display: flex;
-  font-size: 20px;
+  font-size: 30px;
+  margin-left: 100px;
+  left: 50%;
+  font-weight: bold;
 }
 
 ul.gnav-navi-1 a::first-line {
@@ -35,17 +39,22 @@ ul.gnav-navi-1 a::first-line {
 }
 
 img {
-  width: 700px;
+  width: 1100px;
   height: 500px;
   left: 700px;
   padding: 100px;
   z-index: 10;
-  position: relative;
+  position: absolute;
+  right: 0%;
 }
 
 .ws {
   font-size: 40px;
   font-family: impact;
+  top: auto;
+  position: absolute;
+  top: 44%;
+  font-size: 80px;
 }
 
 .box {
@@ -54,6 +63,14 @@ img {
   background: #000080;
   z-index: 0;
   position: absolute;
-  top: 70%;
-  left: 0%;
+  top: 60%;
+  left: auto;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 200vh;
+  height: 100vw;
 }
