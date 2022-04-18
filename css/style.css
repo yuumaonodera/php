@@ -37,9 +37,10 @@ ul.gnav-navi-1 a::first-line {
 img {
   width: 700px;
   height: 500px;
-  position: relative;
   left: 700px;
   padding: 100px;
+  z-index: 10;
+  position: relative;
 }
 
 .ws {
@@ -49,8 +50,9 @@ img {
 }
 
 .box {
-  width: 200px;
-  height: 100px;
+  width: 900px;
+  height: 200px;
   background: #000080;
-  top: 500px;
+  z-index: 0;
+  position: absolute;
 }
