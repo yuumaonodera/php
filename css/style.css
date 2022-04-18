@@ -2,6 +2,7 @@ p {
   font-size: 25px;
   font-family: "Arial Black";
   color: #000080;
+  display: inline-block;
 }
 
 ul.gnav-navi-1 {
@@ -20,6 +21,7 @@ ul.gnav-navi-1 li a {
   top: 0;
   color: #000080;
   text-decoration: none;
+  display: inline-block;
 }
 
 ul.gnav-navi-1 a::first-line {
