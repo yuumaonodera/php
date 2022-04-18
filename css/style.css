@@ -46,13 +46,14 @@ img {
 .ws {
   font-size: 40px;
   font-family: impact;
-  top: 400px;
 }
 
 .box {
-  width: 900px;
+  width: 1190px;
   height: 200px;
   background: #000080;
   z-index: 0;
   position: absolute;
+  top: 70%;
+  left: 0%;
 }
