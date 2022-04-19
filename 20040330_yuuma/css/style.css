@@ -1,0 +1,12 @@
+.header-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  display: inline;
+  margin: 250px;
+  width: 100vh;
+}
+
+.header-list li {
+  display: inline-block;
+}
