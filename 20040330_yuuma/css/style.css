@@ -2,9 +2,8 @@
   list-style: none;
   padding: 0;
   text-align: center;
-  display: inline;
-  margin: 250px;
-  width: 100vh;
+  display: flex;
+  justify-items: flex-end;
 }
 
 .header-list li {
