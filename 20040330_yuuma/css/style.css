@@ -66,49 +66,56 @@ span {
 }
 
 .section {
-  display: block;
-  justify-content: left;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .section-ti {
   list-style: none;
+  font-size: 3px;
   margin-top: 2%;
-  margin-left: 20%;
+  margin-left: 16%;
   letter-spacing: 10px;
 }
 
 .news-1 {
   border-bottom: solid 1px black;
+  margin: 15px;
 }
 
 .news-2 {
   border-bottom: solid 1px black;
+  margin: 15px;
 }
 
 .news-3 {
   border-bottom: solid 1px black;
+  margin: 15px;
 }
 
 .news-4 {
   border-bottom: solid 1px black;
+  margin: 15px;
 }
 
 .news-5 {
   border-bottom: solid 1px black;
+  margin: 15px;
 }
 
 .news {
-  margin-top: 6%;
-  margin-left: 20%;
+  left: 20%;
   font-family: cursive;
   color: #dc143c;
+  margin-left: 180px;
 }
 
 .section-it {
-  margin-top: -2%;
-  margin-left: 20%;
+  margin-top: -7px;
+  margin-left: 180px;
 }
 
-.spa {
+
+.span {
   color: #dc143c;
 }
