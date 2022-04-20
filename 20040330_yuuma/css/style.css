@@ -150,6 +150,10 @@ span {
   height: 300px;
   margin-top: 0px;
   margin-left: 550px;
+  justify-content: flex-start;
+}
+
+.section-7 {
   display: flex;
-  justify-content: flex-end;
+
 }
