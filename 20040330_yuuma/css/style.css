@@ -156,9 +156,6 @@ span {
   margin-top: -150px;
   margin-left: 80px;
   padding-bottom: 10px;
-}
-
-.about-label {
   display: flex;
   flex-direction: column;
 }
