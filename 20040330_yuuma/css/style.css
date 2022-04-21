@@ -36,7 +36,7 @@
   margin-left: 50%;
 }
 
-.relative_it {
+.relative_thumb {
   position: absolute;
   top: 8%;
   left: 15%;
@@ -48,7 +48,7 @@ span {
   color: aqua;
 }
 
-.relative_itt {
+.relative_sub {
   position: absolute;
   top: 53%;
   left: 13%;
@@ -57,7 +57,7 @@ span {
   font-family: "impact";
 }
 
-.relative_ittt {
+.relative_second {
   position: absolute;
   top: 62%;
   left: 15%;
@@ -70,7 +70,7 @@ span {
   margin: 0 auto;
 }
 
-.section-ti {
+.section-news {
   list-style: none;
   font-size: 7px;
   margin-top: 2%;
@@ -111,8 +111,8 @@ span {
   margin-left: 130px;
 }
 
-.section-it {
-  margin-top: -7px;
+.section-title {
+  margin-top: 7px;
   margin-left: 130px;
 }
 
@@ -165,14 +165,14 @@ span {
   display: block;
 }
 
-.service-1 {
+.service-thumb {
   margin-top: 60px;
   margin-left: 80px;
   font-family: cursive;
   color: #dc143c;
 }
 
-.service-2 {
+.service-title {
   padding-bottom: 20px;
   padding-left: 75px;
 }
@@ -206,7 +206,7 @@ span {
   position: relative;
 }
 
-.service-4 {
+.service-img {
   width: 50px;
   height: 50px;
   position: absolute;
