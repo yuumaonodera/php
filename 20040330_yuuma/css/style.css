@@ -147,8 +147,7 @@ span {
 .about-img {
   width: 400px;
   height: 300px;
-  margin-top: 150px;
-  margin-left: 470px;
+  margin-left: 550px;
 }
 
 
@@ -156,12 +155,11 @@ span {
   margin-top: 200px;
   margin-left: 80px;
   padding-bottom: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
-.about-text {
-  margin-top: -100px;
+.about-label {
+  display: flex;
+  justify-content: space-between;
 }
 
 .service {
