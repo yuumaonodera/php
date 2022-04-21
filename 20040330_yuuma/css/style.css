@@ -141,12 +141,12 @@ span {
   display: flex;
 }
 
-.section-2 {
+.about-title {
   margin-top: -5px;
   margin-left: 320px;
 }
 
-.section-3 {
+.section-img {
   width: 300px;
   height: 200px;
   margin-top: 100px;
@@ -154,7 +154,7 @@ span {
 }
 
 
-.section-4 {
+.section-item {
   margin-top: -100px;
   margin-left: 80px;
   padding-bottom: 10px;
