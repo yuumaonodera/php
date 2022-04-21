@@ -22,11 +22,11 @@
   height: 28px;
 }
 
-.relative-global {
+.commit-global {
   position: relative;
 }
 
-.relative_img {
+.commit_img {
   width: 200px;
   height: 200px;
   justify-content: flex-end;
@@ -36,7 +36,7 @@
   margin-left: 50%;
 }
 
-.relative_thumb {
+.commit_thumb {
   position: absolute;
   top: 8%;
   left: 15%;
@@ -48,7 +48,7 @@ span {
   color: aqua;
 }
 
-.relative_sub {
+.commit_sub {
   position: absolute;
   top: 53%;
   left: 13%;
@@ -57,7 +57,7 @@ span {
   font-family: "impact";
 }
 
-.relative_second {
+.commit_second {
   position: absolute;
   top: 62%;
   left: 15%;
@@ -65,12 +65,12 @@ span {
   font-family: "bantangche";
 }
 
-.section-news {
+.main-news {
   width: 85%;
   margin: 0 auto;
 }
 
-.section-news {
+.second-news {
   list-style: none;
   font-size: 7px;
   margin-top: 2%;
@@ -111,7 +111,7 @@ span {
   margin-left: 130px;
 }
 
-.section-title {
+.news-title {
   margin-top: 7px;
   margin-left: 130px;
 }
@@ -124,10 +124,8 @@ span {
   margin: 0 5px 0 5px;
 }
 
-.section-about {
+.about-info {
   background-color: aliceblue;
-  margin-top: 48px;
-  display: block;
 }
 
 .about {
@@ -146,7 +144,7 @@ span {
   margin-left: 320px;
 }
 
-.section-img {
+.about-img {
   width: 300px;
   height: 200px;
   margin-top: 100px;
@@ -154,7 +152,7 @@ span {
 }
 
 
-.section-item {
+.about-item {
   margin-top: -100px;
   margin-left: 80px;
   padding-bottom: 10px;
