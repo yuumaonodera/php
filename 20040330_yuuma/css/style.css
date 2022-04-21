@@ -145,18 +145,26 @@ span {
 }
 
 .about-img {
-  width: 300px;
-  height: 200px;
-  margin-top: 100px;
-  margin-left: 550px;
+  width: 400px;
+  height: 300px;
+  margin-top: 150px;
+  margin-left: 470px;
 }
 
 
 .about-item {
-  margin-top: -100px;
+  margin-top: -150px;
   margin-left: 80px;
   padding-bottom: 10px;
-  justify-content: flex-start;
+}
+
+.about-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  margin-top: -20px;
 }
 
 .service {
