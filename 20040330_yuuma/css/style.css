@@ -157,7 +157,7 @@ span {
   margin-left: 80px;
   padding-bottom: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
 }
 
 .about-text {
