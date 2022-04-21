@@ -145,14 +145,14 @@ span {
 }
 
 .about-img {
-  width: 400px;
-  height: 300px;
-  margin-left: 550px;
+  width: 100px;
+  height: 100px;
+  padding: 130px;
 }
 
 
 .about-item {
-  margin-top: 200px;
+  top: 30px;
   margin-left: 80px;
   padding-bottom: 10px;
 }
