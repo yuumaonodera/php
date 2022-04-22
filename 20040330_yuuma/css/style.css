@@ -298,6 +298,12 @@ span {
   padding: 15px 25px;
 }
 
+.blog-main {
+  margin: 200px 30px 10px 20px;
+  background-color: #fff;
+  border: 30px;
+}
+
 .blog-logo {
   font-family: cursive;
   color: #dc143c;
@@ -312,4 +318,8 @@ span {
 .blog-sub {
   font-size: 14px;
   text-align: right;
+}
+
+.blog-title {
+  left: 30px;
 }
