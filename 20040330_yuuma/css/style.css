@@ -285,8 +285,6 @@ span {
 
 .blog {
   background-color: aliceblue;
-  display: flex;
-  justify-content: space-between;
 }
 
 .blog-img img {
@@ -324,7 +322,9 @@ span {
 }
 
 .blog-title {
-  left: 40px;
+  float: right;
+  display: flex;
+  position: relative;
 }
 
 .blog-heading {
