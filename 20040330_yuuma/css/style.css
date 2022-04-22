@@ -290,16 +290,12 @@ span {
 }
 
 .blog-img img {
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  margin-top: 100px;
 }
 
 .blog-global {
   padding: 15px 25px;
-}
-
-.blog-heading {
-  display: flex;
 }
 
 .blog-logo {
