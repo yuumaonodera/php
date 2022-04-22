@@ -326,3 +326,24 @@ span {
 .blog-title {
   left: 40px;
 }
+
+.blog-heading {
+  position: absolute;
+  background-color: #dc143c;
+  color: #fff;
+  top: 5px;
+  left: 8px;
+  border-radius: 15px 0 0 0;
+}
+
+.blog-date {
+  display: inline-block;
+}
+
+.blog-tag {
+  display: inline-block;
+}
+
+.btn {
+  margin-top: 60px;
+}
