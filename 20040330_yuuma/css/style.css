@@ -287,6 +287,12 @@ span {
   background-color: aliceblue;
 }
 
+.blog-form {
+  display: flex;
+  position: relative;
+}
+
+
 .blog-img img {
   top: 50px;
   width: 100%;
@@ -322,9 +328,7 @@ span {
 }
 
 .blog-title {
-  float: right;
-  display: flex;
-  position: relative;
+  margin-bottom: 40px;
 }
 
 .blog-heading {
