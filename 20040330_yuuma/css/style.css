@@ -290,8 +290,9 @@ span {
 }
 
 .blog-img img {
+  top: 50px;
   width: 100%;
-  margin-top: 100px;
+  border-radius: 30px;
 }
 
 .blog-global {
@@ -299,9 +300,11 @@ span {
 }
 
 .blog-main {
-  margin: 200px 30px 10px 20px;
+  top: 100px;
+  margin: 0px 30px 0px 20px;
   background-color: #fff;
-  border: 30px;
+  border-radius: 30px;
+  position: relative;
 }
 
 .blog-logo {
@@ -321,5 +324,5 @@ span {
 }
 
 .blog-title {
-  width: 50px;
+  left: 40px;
 }
