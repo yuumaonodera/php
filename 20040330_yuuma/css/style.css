@@ -285,6 +285,7 @@ span {
 
 .blog {
   background-color: aliceblue;
+  display: block;
 }
 
 .blog-form {
@@ -314,11 +315,11 @@ span {
 .blog-logo {
   font-family: cursive;
   color: #dc143c;
+  margin-left: 40px;
 }
 
 .blog-text {
   font-size: 18px;
-  margin-bottom: 30px;
   font-weight: 40;
 }
 
@@ -328,7 +329,7 @@ span {
 }
 
 .blog-title {
-  margin-bottom: 40px;
+  margin-left: 40px;
 }
 
 .blog-heading {
