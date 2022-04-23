@@ -37,6 +37,10 @@
   margin-left: 50%;
 }
 
+.commit-img {
+  margin: 0px auto;
+}
+
 .commit_thumb {
   position: absolute;
   top: 8%;
@@ -170,6 +174,7 @@ span {
 
 .service-global {
   overflow: hidden;
+  margin: 0px auto;
 }
 
 .service {
@@ -297,6 +302,7 @@ span {
   background-color: aliceblue;
   display: block;
   overflow: hidden;
+  margin: 0px auto;
 }
 
 .blog-form {
@@ -463,11 +469,11 @@ table th {
 }
 
 .pct {
-  width: 490px;
+  width: 100%;
   height: 300px;
 }
 
 .img {
-  width: 490px;
+  width: 100%;
   height: 300px;
 }
