@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  overflow: hidden;
 }
 
 .header-list {
@@ -8,7 +9,7 @@
   text-align: center;
   justify-content: flex-end;
   margin-top: 6px;
-  margin-left: 35%;
+  margin-left: 45%;
   font-family: serif;
 }
 
@@ -68,6 +69,7 @@ span {
 .main-news {
   width: 85%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .second-news {
@@ -126,6 +128,7 @@ span {
 
 .about-info {
   background-color: aliceblue;
+  overflow: hidden;
 }
 
 .about {
@@ -165,6 +168,10 @@ span {
   justify-content: space-around;
 }
 
+.service-global {
+  overflow: hidden;
+}
+
 .service {
   display: block;
 }
@@ -193,6 +200,7 @@ span {
   display: grid;
   grid-template-rows: 250px 250px;
   grid-template-columns: 2fr 1fr 1fr;
+  margin: 0px auto;
 }
 
 .grid div {
@@ -288,6 +296,7 @@ span {
 .blog {
   background-color: aliceblue;
   display: block;
+  overflow: hidden;
 }
 
 .blog-form {
@@ -366,6 +375,7 @@ table {
   width: 600px;
   border-collapse: collapse;
   margin-left: 180px;
+  margin: 0px auto;
 }
 
 table th,
@@ -450,4 +460,14 @@ table th {
 
 .copy {
   margin-left: 300px;
+}
+
+.pct {
+  width: 490px;
+  height: 300px;
+}
+
+.img {
+  width: 490px;
+  height: 300px;
 }
