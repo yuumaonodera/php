@@ -309,7 +309,6 @@ span {
   margin: 0px 30px 0px 20px;
   background-color: #fff;
   border-radius: 30px;
-  position: relative;
 }
 
 .blog-logo {
@@ -336,8 +335,8 @@ span {
   position: absolute;
   background-color: #dc143c;
   color: #fff;
-  top: 5px;
-  left: 8px;
+  top: 10px;
+  left: 25px;
   border-radius: 15px 0 0 0;
 }
 
@@ -350,5 +349,93 @@ span {
 }
 
 .btn {
+  width: 200px;
+  padding: 10px 0;
+  border-radius: 30px;
+  border: solid 2px #dc143c;
+  color: #dc143c;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 380px;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+  margin-left: 180px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+.company {
+  font-family: cursive;
+  color: #dc143c;
+  margin-left: 180px;
+}
+
+.company-title {
+  margin-left: 175px;
+}
+
+.heading {
+  color: #fff;
+  font-size: 50px;
+}
+
+.title {
+  margin-top: 80px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.title p {
+  position: absolute;
+  color: #fff;
+}
+
+.item {
+  font-size: 25px;
+  margin-right: 500px;
+  font-weight: 60px;
+}
+
+.logo {
+  font-size: 25px;
+  margin-left: 500px;
+  font-weight: 60px;
+}
+
+.menu-title {
+  font-size: 15px;
   margin-top: 60px;
+  margin-left: 350px;
+}
+
+.menu-line {
+  width: 3px;
+  height: 40px;
+  background-color: #dc143c;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.menu-btn {
+  color: #fff;
+  background: linear-gradient(90deg, #ff34ff, #8646ff);
+  box-shadow: 0px 6px 3px #8646ff;
+  border-radius: 30px;
+  margin-left: 400px;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
 }
