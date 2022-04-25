@@ -60,7 +60,7 @@ if (scoreA >= 300 && scoreB >= 300) {
   console.log("がんばろう")
 }
 
-const result="大吉"
+const result = "大吉"
 
 switch (result) {
   case "大凶":
@@ -100,7 +100,7 @@ console.log(array[2]);
 console.log(array[3]);
 console.log(array[4]);
 
-const numbers=[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] ;
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const numb = numbers.map(function (item) {
   if (item % 2 == 0) {
@@ -126,7 +126,7 @@ const globalConst = 'globalConst';
 let globalLet = 'globalLet';
 
 function dummyFunc() {
-  const localConst = 'localConst' ;
+  const localConst = 'localConst';
   let localLet = 'localLet';
 }
 dummyFunc();
@@ -193,7 +193,31 @@ const test = ["国語", "数学", "英語"];
 test.push("理科", "社会");
 console.log(test);
 
-let c = 1000;
-while (c >= 0);
-c = c - 180 == 0;
-console.log(c);
+const school = {
+  name: "COACHTECH",
+  month: 2,
+  skills: ["html", "css", "js", "Vue.js", "Laravel"],
+  createSentense() {
+    let data;
+    this.skills.forEach((skils, index) => {
+      if (index == 0) {
+        data = skils;
+      } else {
+        data = `${data}と${skils}`;
+      }
+    });
+    return `${this.name}は${this.month}ヶ月で${data}を学ぶことができます`
+  },
+};
+console.log(school.createSentense());
+
+console.log(dayjs().format('1996年'));
+
+const addYear = dayjs().add(1, 'year').format('1997年')
+
+console.log(addYear);
+
+const addSubtract = dayjs().subtract(1, 'year').format('1995年');
+console.log(addSubtract);
+
+doucument.getElementsByclassName('ttl')
