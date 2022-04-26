@@ -209,15 +209,9 @@ const school = {
     return `${this.name}は${this.month}ヶ月で${data}を学ぶことができます`
   },
 };
-console.log(school.createSentense());
-
-console.log(dayjs().format('1996年'));
-
-const addYear = dayjs().add(1, 'year').format('1997年')
-
-console.log(addYear);
-
-const addSubtract = dayjs().subtract(1, 'year').format('1995年');
-console.log(addSubtract);
-
-doucument.getElementsByclassName('ttl')
+window.addEventListener('load', function () {
+  const button = document.querySelector("button");
+  button.addEventListener("click", function () {
+    alert("クリックされました");
+  });
+});
