@@ -1,3 +1,16 @@
+
+window.addEventListener('load', function () {
+  const button = document.querySelector("button");
+  button.addEventListener("click", function () {
+    alert("クリックされました");
+  });
+});
+
+const target = document.getElementById("menu");
+target.addEventListener('click', () => {
+  target.classList.toggle('open');
+});
+
 const openBtn = document.getElementById('openBtn');
 const closeBtn = document.getElementById('closeBtn');
 const modal = document.getElementById('modal');
