@@ -1,49 +1,74 @@
-.btn {
-  display: block;
-  width: 160px;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-  border: 1px solid #000;
-}
-
-.btn:hover {
+.menu {
+  list-style: none;
+  width: 600px;
+  height: 40px;
   background: #000;
-  color: #fff;
+  display: flex;
 }
 
-.btn1 {
-  display: block;
-  width: 160px;
-  padding: 15px;
+.menu li {
+  width: 25%;
   text-align: center;
-  text-decoration: none;
-  color: #000;
-  border: 1px solid #000;
-  border-radius: 30px;
 }
 
-.btn1:hover {
-  background: #000;
-  color: #fff;
-}
-
-.btn2 {
+.menu li a {
   display: block;
-  width: 160px;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
+  padding: 13px 0;
   color: #fff;
-  background: #0C88CA;
-  border-bottom: 4px solid #005691;
-  transition: .0s;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.btn2:hover {
-  background: #005691;
-  transform: translate3d(0, 4px, 0);
-  transition: .0s;
-  border-bottom: none;
+.menu li ul li {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  color: #fff;
+  transition: .2s;
+}
+
+.menu li:hover a {
+  color: red;
+}
+
+.menu li:hover ul li {
+  height: 38px;
+  border-bottom: 1px solid #fff;
+}
+
+.menu li:hover ul li:first-child {
+  border-top: 0;
+}
+
+.menu li:hover ul li:list-child {
+  border-bottom: 0;
+}
+
+.openBtn {
+  display: block;
+  margin: 50px auto;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.modal__content-inner {
+  background-color: white;
+  width: 500px;
+  text-align: center;
+  padding: 50px;
 }
