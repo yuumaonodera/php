@@ -1,28 +1,9 @@
-.openBtn {
-  display: block;
-  margin: 50px auto;
+.index-logo {
+  width: 60px;
+  height: 60px;
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal__content {
+.index-item {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.modal__content-inner {
-  background-color: white;
-  width: 500px;
-  text-align: center;
-  padding: 50px;
+  list-style: none;
 }
