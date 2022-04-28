@@ -1,7 +1,6 @@
 .index {
   display: flex;
   overflow: hidden;
-  position: sticky;
 }
 
 .index-item {
@@ -17,6 +16,8 @@
   margin-left: 220px;
   font-family: Arial;
   color: black;
+  margin-top: 10px;
+  position: fixed;
 }
 
 .index-item a {
@@ -97,4 +98,8 @@
   padding-bottom: 60px;
   letter-spacing: 3px;
   line-height: 25px;
+}
+
+body {
+  line-height: 0;
 }
