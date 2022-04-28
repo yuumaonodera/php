@@ -1,11 +1,14 @@
 .index {
+  width: 100%;
   display: flex;
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  Z-index: 999;
+  background-color: white;
 }
 
 .index-item {
   list-style: none;
-  padding: 0;
   text-align: center;
   justify-content: flex-end;
   display: flex;
@@ -13,7 +16,7 @@
   margin: 0;
   flex-direction: row;
   font-weight: bold;
-  margin-left: 220px;
+  margin-left: 300px;
   font-family: Arial;
   color: black;
   margin-top: 10px;
@@ -37,6 +40,7 @@
   height: 20px;
   margin-top: 15px;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .main {
@@ -102,4 +106,8 @@
 
 body {
   line-height: 0;
+}
+
+.service-top {
+  display: flex;
 }
