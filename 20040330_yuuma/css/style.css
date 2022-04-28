@@ -1,7 +1,7 @@
 .index {
   display: flex;
   overflow: hidden;
-
+  position: sticky;
 }
 
 .index-item {
@@ -41,20 +41,14 @@
 .main {
   margin-top: 20px;
   position: relative;
+  margin-bottom: 0;
 }
 
 .main-picure {
   text-align: center;
   width: 100%;
   height: 800px;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-.warapper {
-  margin: 0;
-  padding: 0;
+  overflow: hidden;
 }
 
 .main-wrapper {
@@ -79,21 +73,28 @@
 }
 
 .commit {
-  margin-top: 0px;
+  margin-top: 0;
   background-color: black;
-  margin: 0 auto;
+}
+
+.commit-section {
+  margin-top: 0;
 }
 
 .commit-title {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-left: 40px;
   color: white;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .commit-lead {
   color: white;
-  font-size: 11px;
+  font-size: 15px;
   padding-left: 40px;
+  padding-right: 50px;
+  padding-top: 30px;
   padding-bottom: 60px;
+  letter-spacing: 3px;
+  line-height: 25px;
 }
