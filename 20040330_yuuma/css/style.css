@@ -1,6 +1,7 @@
 .index {
   display: flex;
   overflow: hidden;
+
 }
 
 .index-item {
@@ -10,11 +11,17 @@
   justify-content: flex-end;
   display: flex;
   font-size: 15px;
-  margin: 0px;
+  margin: 0;
   flex-direction: row;
   font-weight: bold;
   margin-left: 220px;
   font-family: Arial;
+  color: black;
+}
+
+.index-item a {
+  text-decoration: none;
+  color: black;
 }
 
 .index-item li {
@@ -40,6 +47,12 @@
   text-align: center;
   width: 100%;
   height: 800px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.warapper {
   margin: 0;
   padding: 0;
 }
