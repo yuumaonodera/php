@@ -309,90 +309,11 @@ body {
   width: 30%;
 }
 
-.card-title {
-  font-size: 25px;
-  margin-top: 100px;
-  margin-left: 90px;
-  margin-bottom: 10px;
+.blog-card {
+  width: 30%;
 }
 
 .card-img {
-  width: 250px;
-  height: 150px;
-  margin: 10px;
-  top: 90px;
-  margin-top: 20px;
-}
-
-.card-img-1 img {
-  width: 300px;
-  height: 150px;
-  margin-top: 130px;
-  margin-left: 80px;
-}
-
-.card-img-2 img {
-  width: 300px;
-  height: 150px;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-
-.card-img-3 img {
-  width: 300px;
-  height: 150px;
-  margin-top: 130px;
-  margin-left: -5px;
-}
-
-.card-img img {
+  display: block;
   width: 100%;
-}
-
-.card-content {
-  padding: 15px 25px;
-}
-
-
-
-.card-cat {
-  padding: 5px 10px;
-  margin-bottom: 15px;
-  font-size: 14px;
-}
-
-.card-cat-1 {
-  padding: 5px 10px;
-  margin-bottom: 30px;
-  font-weight: 400;
-  line-height: 20px;
-  margin-left: 40px;
-}
-
-.card-cat-2 {
-  padding: 5px 10px;
-  margin-bottom: 30px;
-  font-weight: 400;
-  line-height: 20px;
-  margin-left: -25px;
-}
-
-.card-cat-3 {
-  padding: 5px 10px;
-  margin-bottom: 30px;
-  font-weight: 400;
-  line-height: 20px;
-  margin-left: -38px;
-}
-
-.card-ttl-1 {
-  margin-left: 40px;
-}
-
-.card-ttl-2 {
-  margin-left: -15px;
-}
-
-.card-ttl-3 {
-  padding-left: 30px;
 }
