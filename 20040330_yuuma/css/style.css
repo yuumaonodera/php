@@ -108,6 +108,236 @@ body {
   line-height: 0;
 }
 
+.service-title-tl {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 45%;
+}
+
 .service-top {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.service-container {
+  width: 50%;
+}
+
+.service1 img {
+  margin-top: 45px;
+  margin-left: 90px;
+  width: 400px;
+  height: 250px;
+}
+
+.service2 img {
+  margin-left: 10px;
+  margin-top: 45px;
+  width: 400px;
+  height: 250px;
+}
+
+.service3 img {
+  margin-top: 50px;
+  margin-left: 90px;
+  width: 400px;
+  height: 250px;
+}
+
+.service4 img {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 400px;
+  height: 250px;
+}
+
+.service-title {
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-left: 88px;
+}
+
+.service-title-tll {
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.service-leadl {
+  margin-top: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-left: 90px;
+}
+
+.service-leadl-tl {
+  margin-top: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.service-main {
+  width: 230px;
+  height: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 360px;
+  background-color: red;
+  padding-top: 20px;
+  padding-left: 60px;
+  color: white;
+}
+
+.service-main a {
+  text-decoration: none;
+  color: white;
+}
+
+.news {
+  margin-top: 60px;
+  background-color: black;
+  padding-bottom: 90px;
+}
+
+.main-news {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 90px;
+}
+
+.news-container {
+  padding-top: 130px;
+}
+
+.main-news {
+  color: white;
+}
+
+.sub-news {
+  margin-left: 75%;
+  margin-top: -30px;
+  background-color: red;
+  width: 150px;
+  height: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sub-news a {
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+}
+
+.table {
+  margin-top: 30px;
+  color: black;
+  display: flex;
+  margin-left: 90px;
+  width: 900px;
+  height: 40px;
+  background-color: white;
+  padding-top: 40px;
+}
+
+.table-text {
+  margin-left: 60px;
+}
+
+.table-1 {
+  color: black;
+  margin-top: 60px;
+  display: flex;
+  margin-left: 90px;
+  margin-top: 20px;
+  width: 900px;
+  height: 40px;
+  background-color: white;
+  padding-top: 40px;
+}
+
+.table-2 {
+  display: flex;
+  color: black;
+  margin-top: 90px;
+  padding-bottom: 50px;
+  margin-left: 90px;
+  width: 900px;
+  height: 40px;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.table-detail {
+  margin-left: 30px;
+}
+
+.table-text {
+  margin-left: 20px;
+}
+
+.table-detail-1 {
+  margin-left: 30px;
+}
+
+.table-text-1 {
+  margin-left: 20px;
+}
+
+.table-text-2 {
+  margin-left: 20px;
+}
+
+.table-detail-2 {
+  margin-left: 30px;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pactice-card {
+  width: 30%;
+}
+
+.card-title {
+  margin-top: 20px;
+}
+
+.card-img {
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  top: 90px;
+  margin-left: 50px;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 15px 25px;
+}
+
+.card-ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.card-cat {
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
 }
