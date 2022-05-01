@@ -1,0 +1,81 @@
+.index {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  Z-index: 999;
+  background-color: white;
+}
+
+.index-item {
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 15px;
+  margin: 0;
+  flex-direction: row;
+  font-weight: bold;
+  margin-left: 300px;
+  font-family: Arial;
+  color: black;
+  margin-top: 10px;
+  position: fixed;
+}
+
+.index-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.index-item li {
+  margin: 16px;
+  margin-top: 18px;
+  left: 50px;
+}
+
+
+.index-logo {
+  width: 50px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main {
+  margin-top: 10px;
+  position: relative;
+}
+
+.main-title {
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 43%;
+  color: white;
+}
+
+.main-picure {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+
+.recruit-title {
+  border-bottom: 1px solid black;
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.recruit {
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.recruit-sub {
+  margin-bottom: 10px;
+}
