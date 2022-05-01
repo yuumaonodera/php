@@ -1,3 +1,12 @@
+.index {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  Z-index: 999;
+  background-color: white;
+}
+
 .index-item {
   list-style: none;
   text-align: center;
@@ -7,24 +16,24 @@
   margin: 0;
   flex-direction: row;
   font-weight: bold;
-  margin-left: 360px;
+  margin-left: 300px;
   font-family: Arial;
   color: black;
+  margin-top: 10px;
   position: fixed;
-  margin-top: -50px;
 }
 
 .index-item a {
   text-decoration: none;
   color: black;
-  margin: 4px;
 }
 
 .index-item li {
-  margin: 9px;
+  margin: 16px;
   margin-top: 18px;
   left: 50px;
 }
+
 
 .index-logo {
   width: 50px;
@@ -43,14 +52,86 @@
 .main {
   margin-top: 5px;
   position: relative;
+  margin-bottom: 90px;
 }
 
 .main-title {
   position: absolute;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  top: 45%;
+  left: 43%;
+  color: white;
+}
+
+.table {
+  display: flex;
+  margin: 20px;
+  border: 1px solid black;
+  margin-left: 130px;
+  margin-right: 130px;
+  padding: 25px;
+}
+
+.table-detail {
+  padding-right: 30px;
+}
+
+.news {
+  margin-bottom: 80px;
+}
+
+.contact {
+  background-color: aliceblue;
+}
+
+.contact-title {
+  padding-top: 90px;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 410px;
+}
+
+.contact-detail {
+  margin-top: 20px;
+  margin-left: 255px;
+}
+
+button {
+  margin-top: 70px;
+  margin-left: 400px;
+  padding: 8px 50px 8px 50px;
+  background-color: red;
+  margin-bottom: 50px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
   font-weight: bold;
 }
 
-.wrapper {
-  position: relative;
+.footer {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.footer-list a {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  margin-left: 250px;
+}
+
+small {
+  margin-left: 20px;
+  color: white;
 }

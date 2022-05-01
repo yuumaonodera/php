@@ -1,0 +1,141 @@
+.index {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  Z-index: 999;
+  background-color: white;
+}
+
+.index-item {
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 15px;
+  margin: 0;
+  flex-direction: row;
+  font-weight: bold;
+  margin-left: 300px;
+  font-family: Arial;
+  color: black;
+  margin-top: 10px;
+  position: fixed;
+}
+
+.index-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.index-item li {
+  margin: 16px;
+  margin-top: 18px;
+  left: 50px;
+}
+
+
+.index-logo {
+  width: 50px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main {
+  margin-top: 5px;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.main-title {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 45%;
+  left: 43%;
+  color: white;
+}
+
+.main-picure {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+
+.company-global {
+  display: flex;
+  border-top: 1px solid black;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.company-global:last-child {
+  border-bottom: 1px solid black;
+}
+
+.company-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+}
+
+
+.company-detail {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.contact {
+  margin-top: 70px;
+  background-color: aliceblue;
+  padding-bottom: 60px;
+}
+
+.contact-title {
+  padding-top: 60px;
+  margin-left: 440px;
+  font-size: 20px;
+}
+
+.contact-detail {
+  margin-top: 20px;
+  margin-left: 260px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: red;
+  margin-top: 70px;
+  padding: 10px 40px 10px 40px;
+  margin-left: 430px;
+}
+
+.footer {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  margin-left: 250px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+.footer-small {
+  margin-left: 30px;
+  color: white;
+}
