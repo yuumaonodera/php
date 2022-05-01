@@ -1,0 +1,182 @@
+.index {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  Z-index: 999;
+  background-color: white;
+}
+
+.index-item {
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 15px;
+  margin: 0;
+  flex-direction: row;
+  font-weight: bold;
+  margin-left: 300px;
+  font-family: Arial;
+  color: black;
+  margin-top: 10px;
+  position: fixed;
+}
+
+.index-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.index-item li {
+  margin: 16px;
+  margin-top: 18px;
+  left: 50px;
+}
+
+
+.index-logo {
+  width: 50px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-picure {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+
+.main {
+  margin-top: 5px;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.main-title {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 45%;
+  left: 43%;
+  color: white;
+}
+
+.blog-main {
+  margin: 10px;
+}
+
+.main-sub1 {
+  width: 272px;
+  height: 163px;
+  margin-left: 50px;
+}
+
+.blog-date1 {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.blog-date {
+  margin-top: 10px;
+}
+
+.blog-title1 {
+  margin-top: 10px;
+}
+
+.blog-title {
+  margin-top: 10px;
+}
+
+.blog-title1 {
+  margin-left: 50px;
+}
+
+.main-sub2 {
+  width: 272px;
+  height: 163px;
+}
+
+.main-sub3 {
+  width: 272px;
+  height: 162px;
+}
+
+.blog {
+  display: flex;
+}
+
+.company {
+  display: flex;
+}
+
+.sub-main1 {
+  width: 272px;
+  height: 163px;
+  margin-left: 40px;
+}
+
+.sub-main2 {
+  width: 272px;
+  height: 163px;
+}
+
+.sub-main3 {
+  width: 272px;
+  height: 163px;
+}
+
+.main-blog {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.date-blog1 {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.sub-main1 {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.date-blog2 {
+  margin-top: 10px;
+}
+
+.sub-main2 {
+  margin-top: 10px;
+}
+
+.date-blog3 {
+  margin-top: 10px;
+}
+
+.sub-main3 {
+  margin-top: 10px;
+}
+
+.contact {
+  background-color: aliceblue;
+  margin-top: -90px;
+  padding-top: 70px;
+}
+
+.contact-main {
+  font-size: 30px;
+  margin-left: 410px;
+}
+
+.contact-sub {
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 60px 8px 60px;
+  margin-top: 50px;
+}

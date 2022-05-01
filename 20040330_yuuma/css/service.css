@@ -1,0 +1,155 @@
+.index {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  Z-index: 999;
+  background-color: white;
+}
+
+.index-item {
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 15px;
+  margin: 0;
+  flex-direction: row;
+  font-weight: bold;
+  margin-left: 300px;
+  font-family: Arial;
+  color: black;
+  margin-top: 10px;
+  position: fixed;
+}
+
+.index-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.index-item li {
+  margin: 16px;
+  margin-top: 18px;
+  left: 50px;
+}
+
+
+.index-logo {
+  width: 50px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-picure {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+
+.main {
+  margin-top: 5px;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.main-title {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 45%;
+  left: 43%;
+  color: white;
+}
+
+.service-main {
+  display: flex;
+  border-top: 1px solid black;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.service-main:last-child {
+  border-bottom: 1px solid black;
+}
+
+.service-picure {
+  display: flex;
+  width: 290px;
+  height: 175px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.service-global {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.service-title {
+  font-size: 25px;
+}
+
+.service-sub {
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.contact {
+  margin-top: 70px;
+  background-color: aliceblue;
+  padding-bottom: 60px;
+}
+
+.contact-title {
+  padding-top: 60px;
+  font-size: 25px;
+  margin-left: 420px;
+}
+
+.contact-sub {
+  margin-left: 250px;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 50px;
+  padding: 8px 70px 8px 70px;
+  margin-left: 380px;
+  background-color: red;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  margin: 3px;
+  padding-top: 27px;
+  margin-left: 350px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin: 6px;
+}
+
+.footer-small {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+}
