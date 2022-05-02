@@ -472,10 +472,9 @@ button a {
 }
 
 .box-item {
-  display: inline-block;
+  display: flex;
   margin-top: 70px;
   margin-bottom: 70px;
-  margin: -10px;
 }
 
 .box-container {
