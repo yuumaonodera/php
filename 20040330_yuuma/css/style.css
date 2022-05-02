@@ -40,6 +40,10 @@
   .index-item {
     display: none;
   }
+
+  .menu {
+    display: block;
+  }
 }
 
 .index-logo {
@@ -85,11 +89,7 @@ a {
   display: none;
 }
 
-@media screen and (max-width:768px) {
-  .menu {
-    display: block;
-  }
-}
+
 
 .menu_line--top,
 .menu_line--middle,
