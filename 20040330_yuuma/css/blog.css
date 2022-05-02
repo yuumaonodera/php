@@ -164,19 +164,51 @@
   background-color: aliceblue;
   margin-top: -90px;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .contact-main {
   font-size: 30px;
-  margin-left: 410px;
+  margin-left: 40%;
 }
 
 .contact-sub {
-  margin-left: 230px;
+  margin-left: 25%;
   margin-top: 20px;
 }
 
 button {
   padding: 8px 60px 8px 60px;
   margin-top: 50px;
+  background-color: red;
+  margin-left: 40%;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  margin-left: 250px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+.footer-small {
+  margin-left: 30px;
+  color: white;
 }

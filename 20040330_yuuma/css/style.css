@@ -43,6 +43,81 @@
   margin-bottom: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.nav {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: -100%;
+  background: #eee;
+  transition: .7s;
+  text-align: center;
+}
+
+.nav ul {
+  padding-top: 80px;
+}
+
+.nav ul li {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+  width: 36px;
+  height: 32px;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.menu_line--top,
+.menu_line--middle,
+.menu_line--bottom {
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.menu_line--top {
+  top: 0;
+}
+
+.menu_line--middle {
+  top: 14px;
+}
+
+.menu_line--bottom {
+  bottom: 0;
+}
+
+.menu.open span:nth-last-of-type(1) {
+  top: 14px;
+  transform: rotate(45deg);
+}
+
+.menu.open span:nth-last-of-type(2) {
+  opacity: 0;
+}
+
+.menu.open span:nth-last-of-type(3) {
+  top: 14px;
+  transform: rotate(-45deg);
+}
+
+.in {
+  transform: translateX(100%);
+}
+
 .main {
   margin-top: 20px;
   position: relative;
@@ -77,7 +152,7 @@
 }
 
 .commit {
-  margin-top: 0;
+  margin-top: -5px;
   background-color: black;
 }
 
@@ -198,6 +273,7 @@
   margin-top: 60px;
   background-color: black;
   padding-bottom: 90px;
+  margin: 0 auto;
 }
 
 .main-news {
@@ -212,6 +288,8 @@
 
 .main-news {
   color: white;
+  margin: 0 auto;
+  margin-left: 110px;
 }
 
 .sub-news {
@@ -235,11 +313,12 @@
   margin-top: 30px;
   color: black;
   display: flex;
-  margin-left: 90px;
+  margin-left: 10%;
   width: 800px;
   height: 40px;
   background-color: white;
   padding-top: 30px;
+  margin: 0 auto;
 }
 
 .table-text {
@@ -250,12 +329,13 @@
   color: black;
   margin-top: 60px;
   display: flex;
-  margin-left: 90px;
+  margin-left: 10%;
   margin-top: 20px;
   width: 800px;
   height: 40px;
   background-color: white;
   padding-top: 30px;
+  margin: 10px auto;
 }
 
 .table-2 {
@@ -263,13 +343,14 @@
   color: black;
   margin-top: 90px;
   padding-bottom: 50px;
-  margin-left: 90px;
+  margin-left: 10%;
   width: 800px;
   height: 40px;
   background-color: white;
   padding-top: 30px;
   padding-bottom: 5px;
   margin-top: 20px;
+  margin: 10px auto;
 }
 
 .table-detail {
@@ -357,10 +438,11 @@ button a {
   display: inline-block;
   margin-top: 70px;
   margin-bottom: 70px;
+  margin: -10px;
 }
 
 .box-container {
-  width: 496px;
+  width: 529px;
   height: 150px;
   background-color: red;
   text-align: center;
