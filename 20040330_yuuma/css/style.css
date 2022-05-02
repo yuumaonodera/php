@@ -37,8 +37,21 @@
 }
 
 @media screen and (max-width:768px) {
+
   .index-item {
     display: none;
+  }
+
+  .menu_line--top {
+    display: block;
+  }
+
+  .menu_line--middle {
+    display: block;
+  }
+
+  .menu_line--bottom {
+    display: block;
   }
 
   .menu {
