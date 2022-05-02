@@ -7,6 +7,8 @@
   background-color: white;
 }
 
+
+
 .index-item {
   list-style: none;
   text-align: center;
@@ -23,12 +25,6 @@
   position: fixed;
 }
 
-@media screen and (max-width:768px) {
-  .index-item {
-    display: none;
-  }
-}
-
 .index-item a {
   text-decoration: none;
   color: black;
@@ -40,6 +36,11 @@
   left: 50px;
 }
 
+@media screen and (max-width:768px) {
+  .index-item {
+    display: none;
+  }
+}
 
 .index-logo {
   width: 50px;
