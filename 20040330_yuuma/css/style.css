@@ -23,6 +23,12 @@
   position: fixed;
 }
 
+@media screen and (max-width:768px) {
+  .index-item {
+    display: none;
+  }
+}
+
 .index-item a {
   text-decoration: none;
   color: black;
@@ -73,8 +79,15 @@ a {
   height: 32px;
   cursor: pointer;
   position: relative;
-  left: 20px;
+  left: 80%;
   top: 20px;
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  .menu {
+    display: block;
+  }
 }
 
 .menu_line--top,
