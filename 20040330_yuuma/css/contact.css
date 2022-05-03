@@ -215,9 +215,10 @@ span {
 }
 
 button {
-  margin-top: 30px;
+  display: block;
+  width: 20%;
+  margin: 0 auto;
   padding: 10px 80px 10px 80px;
-  margin-left: 40%;
   background-color: black;
   color: white;
 }
