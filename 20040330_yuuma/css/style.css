@@ -152,18 +152,21 @@ a {
   position: relative;
 }
 
-.main-title {
+.main-inner {
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.main-title {
   font-size: 48px;
   color: white;
 }
 
 .main-sub {
-  position: absolute;
-  top: 50%;
-  left: 30%;
   font-size: 15px;
   color: white;
   font-weight: bold;
@@ -234,7 +237,7 @@ a {
 }
 
 .service2 img {
-  margin-left: 5%;
+  margin-left: 1%;
   margin-top: 45px;
   width: 400px;
   height: 250px;
@@ -309,7 +312,8 @@ a {
 .main-news {
   font-size: 25px;
   font-weight: bold;
-  margin-left: 90px;
+  padding-bottom: 30px;
+  margin-left: 130px;
 }
 
 .news-container {
@@ -319,11 +323,12 @@ a {
 .main-news {
   color: white;
   margin: 0 auto;
-  margin-left: 110px;
+  margin-left: 20%;
+  margin-bottom: -60px;
 }
 
 .sub-news {
-  margin-left: 74%;
+  margin-left: 61%;
   margin-top: -30px;
   background-color: red;
   width: 150px;
@@ -331,12 +336,13 @@ a {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 50px;
 }
 
 .sub-news a {
   text-decoration: none;
   color: white;
-  padding-top: 6px;
+  padding-top: 15px;
 }
 
 .table {
@@ -353,6 +359,10 @@ a {
 
 .table-text {
   margin-left: 60px;
+}
+
+.table-container {
+  margin-right: 7%;
 }
 
 .table-1 {
@@ -384,7 +394,7 @@ a {
 }
 
 .table-detail {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .table-text {
