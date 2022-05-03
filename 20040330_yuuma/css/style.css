@@ -157,11 +157,10 @@ a {
 
 .main-title {
   position: absolute;
-  font-size: 48px;
   top: 40%;
-  left: 20%;
+  left: 15%;
+  font-size: 48px;
   color: white;
-  text-align: center;
 }
 
 .main-sub {
@@ -520,7 +519,7 @@ button a {
 
 .contact {
   background-color: aliceblue;
-  width: 100vw;
+  width: 100%;
 }
 
 .contact-title {
@@ -575,4 +574,8 @@ button {
   color: white;
   font-size: 13px;
   margin-left: 20px;
+}
+
+* {
+  outline: 1px solid red !important;
 }

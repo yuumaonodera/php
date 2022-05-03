@@ -166,11 +166,9 @@ a {
 .main-sub1 {
   width: 272px;
   height: 163px;
-  margin-left: 50px;
 }
 
 .blog-date1 {
-  margin-left: 50px;
   margin-top: 10px;
 }
 
@@ -184,10 +182,6 @@ a {
 
 .blog-title {
   margin-top: 10px;
-}
-
-.blog-title1 {
-  margin-left: 50px;
 }
 
 .main-sub2 {
@@ -225,7 +219,6 @@ a {
 .sub-main1 {
   width: 272px;
   height: 163px;
-  margin-left: 40px;
 }
 
 .sub-main2 {
@@ -238,24 +231,11 @@ a {
   height: 163px;
 }
 
-.main-blog {
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-@media screen and (max-width:768px) {
-  .main-blog {
-    margin-left: 50px;
-  }
-}
-
 .date-blog1 {
-  margin-left: 40px;
   margin-top: 10px;
 }
 
 .sub-main1 {
-  margin-left: 40px;
   margin-top: 10px;
 }
 
