@@ -1,5 +1,6 @@
 .index {
   width: 100%;
+  justify-content: space-between;
   display: flex;
   position: fixed;
   top: 0;
@@ -13,14 +14,11 @@
   justify-content: flex-end;
   display: flex;
   font-size: 15px;
-  margin: 0;
   flex-direction: row;
   font-weight: bold;
-  margin-left: 300px;
   font-family: Arial;
   color: black;
   margin-top: 10px;
-  position: fixed;
 }
 
 .index-item a {
@@ -204,19 +202,19 @@ a {
   padding-top: 90px;
   font-size: 30px;
   letter-spacing: 2px;
-  margin-left: 40%;
+  text-align: center;
 }
 
 .contact-detail {
   margin-top: 20px;
-  margin-left: 25%;
+  text-align: center;
 }
 
 button {
   margin-top: 30px;
   background-color: red;
   padding: 10px 80px 10px 80px;
-  margin-left: 36%;
+  margin-left: 43%;
 }
 
 button a {
@@ -226,6 +224,7 @@ button a {
 
 .footer {
   display: flex;
+  justify-content: space-between;
   background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -234,7 +233,6 @@ button a {
 .footer-list {
   display: flex;
   list-style: none;
-  margin-left: 200px;
 }
 
 .footer-small {

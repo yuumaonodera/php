@@ -1,5 +1,6 @@
 .index {
   width: 100%;
+  justify-content: space-between;
   display: flex;
   position: fixed;
   top: 0;
@@ -13,14 +14,11 @@
   justify-content: flex-end;
   display: flex;
   font-size: 15px;
-  margin: 0;
   flex-direction: row;
   font-weight: bold;
-  margin-left: 300px;
   font-family: Arial;
   color: black;
   margin-top: 10px;
-  position: fixed;
 }
 
 .index-item a {
@@ -193,6 +191,7 @@ span {
 
 .footer {
   display: flex;
+  justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: black;
@@ -202,7 +201,6 @@ span {
 .footer-list {
   list-style: none;
   display: flex;
-  margin-left: 250px;
 }
 
 .footer-list a {

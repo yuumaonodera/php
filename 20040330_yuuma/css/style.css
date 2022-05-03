@@ -1,5 +1,6 @@
 .index {
   width: 100%;
+  justify-content: space-between;
   display: flex;
   position: fixed;
   top: 0;
@@ -7,22 +8,17 @@
   background-color: white;
 }
 
-
-
 .index-item {
   list-style: none;
-  text-align: center;
-  justify-content: flex-end;
   display: flex;
+  justify-content: flex-end;
   font-size: 15px;
-  margin: 0;
   flex-direction: row;
   font-weight: bold;
   margin-left: 300px;
   font-family: Arial;
   color: black;
   margin-top: 10px;
-  position: fixed;
 }
 
 .index-item a {
@@ -31,9 +27,8 @@
 }
 
 .index-item li {
-  margin: 16px;
+  margin: 10px;
   margin-top: 18px;
-  left: 50px;
 }
 
 
@@ -151,7 +146,6 @@ a {
 }
 
 .main-picure {
-  text-align: center;
   width: 100%;
   height: 800px;
   overflow: hidden;
@@ -165,8 +159,9 @@ a {
   position: absolute;
   font-size: 48px;
   top: 40%;
-  left: 10%;
+  left: 20%;
   color: white;
+  text-align: center;
 }
 
 .main-sub {
@@ -176,6 +171,7 @@ a {
   font-size: 15px;
   color: white;
   font-weight: bold;
+  text-align: center;
 }
 
 .commit {
@@ -221,10 +217,7 @@ a {
 @media screen and (max-width:768px) {
   .service-top {
     display: block;
-  }
-
-  .service1 {
-    width: 60%;
+    justify-content: center;
   }
 }
 
@@ -294,10 +287,11 @@ a {
   height: 20px;
   margin-top: 50px;
   margin-bottom: 30px;
-  margin-left: 200px;
+  margin-left: 35%;
   background-color: red;
   padding-top: 20px;
   padding-left: 60px;
+  padding-bottom: 10px;
   color: white;
 }
 
@@ -420,6 +414,7 @@ a {
 
 @media screen and (max-width:768px) {
   .flex-item {
+    justify-content: center;
     display: block;
   }
 }
@@ -435,15 +430,21 @@ a {
 
 
 .card-title {
+  text-align: center;
   margin-top: 40px;
   font-size: 25px;
   font-weight: bold;
-  margin-left: 430px;
 }
 
 .card-img {
   display: block;
   width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .card-img {
+    justify-content: center;
+  }
 }
 
 .card-ttl {
@@ -463,8 +464,8 @@ a {
 }
 
 button {
-  margin-top: 70px;
-  margin-left: 380px;
+  margin-top: 8%;
+  margin-left: 42%;
   padding: 10px 50px 10px 50px;
   font-size: 15px;
   color: white;
@@ -527,6 +528,7 @@ button a {
   font-size: 30px;
   letter-spacing: 2px;
   text-align: center;
+  padding-top: 8%;
 }
 
 .contact-detail {
@@ -536,10 +538,12 @@ button a {
 
 button {
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .footer {
   display: flex;
+  justify-content: space-between;
   background-color: black;
 }
 

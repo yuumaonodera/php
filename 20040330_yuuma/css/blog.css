@@ -1,5 +1,6 @@
 .index {
   width: 100%;
+  justify-content: space-between;
   display: flex;
   position: fixed;
   top: 0;
@@ -9,18 +10,14 @@
 
 .index-item {
   list-style: none;
-  text-align: center;
-  justify-content: flex-end;
   display: flex;
+  justify-content: flex-end;
   font-size: 15px;
-  margin: 0;
   flex-direction: row;
   font-weight: bold;
-  margin-left: 300px;
   font-family: Arial;
   color: black;
   margin-top: 10px;
-  position: fixed;
 }
 
 .index-item a {
@@ -29,9 +26,8 @@
 }
 
 .index-item li {
-  margin: 16px;
+  margin: 10px;
   margin-top: 18px;
-  left: 50px;
 }
 
 
@@ -282,11 +278,11 @@ a {
 
 .contact-main {
   font-size: 30px;
-  margin-left: 40%;
+  text-align: center;
 }
 
 .contact-sub {
-  margin-left: 25%;
+  text-align: center;
   margin-top: 20px;
 }
 
@@ -294,7 +290,7 @@ button {
   padding: 8px 60px 8px 60px;
   margin-top: 50px;
   background-color: red;
-  margin-left: 40%;
+  margin-left: 43%;
 }
 
 button a {
@@ -304,6 +300,7 @@ button a {
 
 .footer {
   display: flex;
+  justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: black;
@@ -312,7 +309,6 @@ button a {
 .footer-list {
   list-style: none;
   display: flex;
-  margin-left: 250px;
 }
 
 .footer-list a {
