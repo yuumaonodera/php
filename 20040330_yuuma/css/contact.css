@@ -220,10 +220,4 @@ button {
   margin-left: 300px;
   background-color: black;
   color: white;
-  background: none;
-  border: none;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }

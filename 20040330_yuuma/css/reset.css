@@ -171,3 +171,9 @@ input,
 select {
   vertical-align: middle;
 }
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}

@@ -219,6 +219,10 @@ a {
     display: block;
     justify-content: center;
   }
+
+  .service-container {
+    margin-left: 70px;
+  }
 }
 
 .service-container {
@@ -412,12 +416,6 @@ a {
   justify-content: space-between;
 }
 
-@media screen and (max-width:768px) {
-  .flex-item {
-    justify-content: center;
-    display: block;
-  }
-}
 
 .pactice-card {
   width: 30%;
@@ -436,15 +434,16 @@ a {
   font-weight: bold;
 }
 
+@media screen and (max-width:768px) {
+  .flex-item {
+    display: block;
+    margin-left: 40%;
+  }
+}
+
 .card-img {
   display: block;
   width: 100%;
-}
-
-@media screen and (max-width:768px) {
-  .card-img {
-    justify-content: center;
-  }
 }
 
 .card-ttl {
