@@ -1,7 +1,6 @@
 .index {
   width: 100%;
   justify-content: space-between;
-  display: flex;
   position: fixed;
   top: 0;
   Z-index: 999;
@@ -72,8 +71,8 @@ a {
   height: 32px;
   cursor: pointer;
   position: relative;
-  left: 60%;
-  top: 20px;
+  left: 90%;
+  top: -30px;
   display: none;
 }
 
