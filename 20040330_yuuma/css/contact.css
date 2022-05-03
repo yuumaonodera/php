@@ -172,10 +172,11 @@ span {
 .contact-global {
   margin: 100px;
   padding: 0;
+  margin-left: 20%;
 }
 
 .contact {
-  margin-right: 180px;
+  margin-right: 150px;
   padding: 0;
   margin-left: 60px;
 }

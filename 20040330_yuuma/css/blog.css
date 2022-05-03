@@ -167,6 +167,10 @@ a {
   height: 163px;
 }
 
+.main-blog {
+  margin-left: -55px;
+}
+
 .blog-date1 {
   margin-top: 10px;
 }
@@ -191,6 +195,30 @@ a {
 .main-sub3 {
   width: 272px;
   height: 162px;
+}
+
+.sub-main1 {
+  margin-left: -35px;
+}
+
+.sub-main2 {
+  margin-left: -10px;
+}
+
+.sub-main {
+  margin-left: -40px;
+}
+
+.date-blog1 {
+  margin-left: -40px;
+}
+
+.date-blog2 {
+  margin-left: -10px;
+}
+
+.title-blog2 {
+  margin-left: -10px;
 }
 
 .blog {
