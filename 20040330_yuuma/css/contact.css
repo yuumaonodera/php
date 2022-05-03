@@ -172,13 +172,13 @@ span {
 .contact-global {
   margin: 100px;
   padding: 0;
-  margin-left: 20%;
 }
 
 .contact {
   margin-right: 150px;
-  padding: 0;
+  width: 85%;
   margin-left: 60px;
+  margin: 0 auto;
 }
 
 .contact-sub {
