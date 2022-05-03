@@ -224,8 +224,7 @@ a {
   }
 
   .service1 {
-    width: 642px;
-    height: 385px;
+    width: 60%;
   }
 }
 
@@ -419,6 +418,12 @@ a {
   justify-content: space-between;
 }
 
+@media screen and (max-width:768px) {
+  .flex-item {
+    display: block;
+  }
+}
+
 .pactice-card {
   width: 30%;
 }
@@ -427,6 +432,7 @@ a {
   width: 30%;
   margin-top: 50px;
 }
+
 
 .card-title {
   margin-top: 40px;
@@ -477,6 +483,7 @@ button a {
   margin-bottom: 70px;
 }
 
+
 .box-container {
   width: 50vw;
   height: 150px;
@@ -513,7 +520,7 @@ button a {
 
 .contact {
   background-color: aliceblue;
-  width: 90vh;
+  width: 100vw;
 }
 
 .contact-title {
@@ -536,12 +543,20 @@ button {
   background-color: black;
 }
 
+
+
 .footer-list {
   list-style: none;
   display: flex;
   margin: 3px;
   padding-top: 27px;
   margin-left: 350px;
+}
+
+@media screen and (max-width:768px) {
+  .footer-list {
+    display: block;
+  }
 }
 
 .footer-list a {

@@ -209,9 +209,21 @@ a {
   justify-content: space-around;
 }
 
+@media screen and (max-width:768px) {
+  .blog {
+    display: block;
+  }
+}
+
 .company {
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+  .company {
+    display: block;
+  }
 }
 
 .sub-main1 {
